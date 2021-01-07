@@ -4,14 +4,11 @@ window.addEventListener('DOMContentLoaded', () => {
     const squares = board.children;
 
     board.addEventListener('click', event => {
-
-
-        event.target.style.value
-        console.log([0]);
-
-    })
-
-
+        console.log(event.target);
+        if (event.target.innerText === '') {
+            event.target.innerHTML = ''
+        }
+    });
 
 
 
