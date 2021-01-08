@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ticTacPhotos"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dom-api-tic-tac-toe",
+		"liveServer.settings.port": 5501
+	}
+}
