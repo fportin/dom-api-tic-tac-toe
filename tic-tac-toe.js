@@ -65,6 +65,19 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    let buttons = document.querySelectorAll('button');
+
+    buttons.forEach(function (ele) {
+        ele.setAttribute('id', `${ele.innerText}`);
+    });
+
+    let newGame = document.getElementById('New Game');
+
+    newGame.addEventListener('submit', event => {
+        if (announce.innerText === '') {
+            event.preventDefault();
+        }
+    })
 
 
 })
